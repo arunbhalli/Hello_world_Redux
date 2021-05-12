@@ -8,9 +8,9 @@ const App = () => {
       <h1>Hello {message}</h1>
       <button
         onClick={() =>
-          dispatch({ type: 'CHANGE_GREETING', payload: 'Jupiter' })
+          dispatch({ type: 'CHANGE_GREETING', payload: 'Uranus' })
         }>
-        Change to Jupiter
+        Say hi to uranus!
       </button>
     </>
   );

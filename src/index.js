@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import configureStore from "./state/store/configureStore"
 import reportWebVitals from './reportWebVitals';
 const store = configureStore();
-//hack to gain access to store 
+//hack to gain access to store in dev tools
 window.store = store
 ReactDOM.render(
   <Provider store={store}>
